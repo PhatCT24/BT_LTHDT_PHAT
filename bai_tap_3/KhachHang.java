@@ -19,8 +19,7 @@ public class KhachHang {
     }
 	@Override 
 	public String toString() {
-		return  "\n" +"-Ten Khach hang: " + tenKH  + "\n"
-				+ "-Ma Khach hang: " + KhachHangID + "\n" 
-				+ "-Dia Chi Khach hang: " + diaChi;
+		return  "\n" +"-Tên Khách hàng: " + tenKH  + "\n"
+				+ "-Mã Khách hàng: " + KhachHangID + "\n" 
+				+ "-Địa chỉ Khách Hàng: " + diaChi;
 	}
-}
